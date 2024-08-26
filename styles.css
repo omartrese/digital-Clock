@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: #223;
+    background-color: #333;
+    user-select: none;
+    font-size: 45px; 
+}
+
+#clock span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75vh;
+    height: 75vh;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: black;
+    box-shadow: 10px 10px 5px #222;
+    background-color: white;
+}
+
+.dark {
+    background-color: white;
+    
+}
